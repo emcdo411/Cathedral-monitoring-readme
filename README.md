@@ -49,11 +49,11 @@ Whether you're a civic engineer, historian, structural architect, or city planne
 
 ```mermaid
 flowchart TD
-  A[Drone / LIDAR Telemetry] --> B[JSON Log File Generator]
-  B --> C[AI Crack & Stress Analyzer (R)]
-  C --> D[RShiny Dashboard Visualization]
-  D --> E[Engineer or Inspector Feedback]
-  E --> F[Restoration Plan / AR Repair Guidance]
+  A[Drone / LIDAR Telemetry] --> B[JSON Generator]
+  B --> C[AI Analyzer: Crack & Stress]
+  C --> D[RShiny Dashboard]
+  D --> E[Inspector Feedback]
+  E --> F[Restoration Guidance / AR Overlay]
 ```
 
 ---
@@ -156,3 +156,4 @@ Use this as a base for:
 **Author**: Erwin Maurice McDonald | [GitHub](https://github.com/emcdo411) | [LinkedIn](https://linkedin.com/in/mauricemcdonald)
 
 License: MIT
+
