@@ -42,13 +42,13 @@ Whether you're a civic engineer, historian, structural architect, or city planne
 ## 🛠️ System Architecture (Mermaid)
 
 ```mermaid
+
 flowchart TD
   A[Drone / LIDAR Telemetry] --> B[JSON Log File Generator (PowerShell)]
   B --> C[AI Model - Crack & Stress Analyzer (R)]
   C --> D[RShiny Dashboard Visualization]
   D --> E[Decision Maker: Engineer / Inspector]
   E --> F[Restoration Plan / AR Repair Guidance]
-```
 
 ---
 
