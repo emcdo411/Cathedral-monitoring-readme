@@ -1,3 +1,9 @@
+# 🏰 Repo Suggestion: `cathedral-ai-monitoring`
+
+A modern AI- and data-driven approach to preserve the structural legacy of Gothic cathedrals.
+
+---
+
 # 🧠 Gothic Cathedral Health Monitoring Dashboard (AI + RShiny + PowerShell)
 
 Real-time structural risk detection for Gothic vaults and buttresses—blending Robert Mark’s engineering legacy with modern AI tools.
@@ -42,13 +48,13 @@ Whether you're a civic engineer, historian, structural architect, or city planne
 ## 🛠️ System Architecture (Mermaid)
 
 ```mermaid
-
 flowchart TD
-  A[Drone / LIDAR Telemetry] --> B[JSON Log File Generator (PowerShell)]
-  B --> C[AI Model - Crack & Stress Analyzer (R)]
+  A[Drone / LIDAR Telemetry] --> B[JSON Log File Generator]
+  B --> C[AI Crack & Stress Analyzer (R)]
   C --> D[RShiny Dashboard Visualization]
-  D --> E[Decision Maker: Engineer / Inspector]
+  D --> E[Engineer or Inspector Feedback]
   E --> F[Restoration Plan / AR Repair Guidance]
+```
 
 ---
 
@@ -120,7 +126,7 @@ data <- fromJSON(content(res, "text"))
 
 🏛️ Gothic cathedrals were built by intuition, not blueprints.
 
-📐 Robert Mark showed us they were engineering marvels. Now AI lets us:
+📊 Robert Mark showed us they were engineering marvels. Now AI lets us:
 
 * Monitor 24/7 with zero scaffolding
 * Predict collapse before it happens
